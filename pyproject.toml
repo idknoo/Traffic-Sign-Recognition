@@ -1,0 +1,29 @@
+
+[tool.poetry]
+name = "traffic-sign"
+version = "0.1.0"
+description = "Проект для распознавания дорожных знаков (GTSRB)"
+authors = ["dvorianchikova.dv@phystech.edu]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+torch = "^2.0.0"
+torchvision = "^0.15.0"
+pytorch-lightning = "^2.0"
+opencv-python = "^4.8.0.74"
+Pillow = "^9.4.0"
+scikit-learn = "^1.3.0"
+numpy = "^1.25.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+isort = "^5.12.0"
+flake8 = "^6.0.0"
+pre-commit = "^3.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
