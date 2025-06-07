@@ -4,12 +4,10 @@ stages:
     cmd: python -c "from scripts.dvc_utils import download_data; download_data()"
     outs:
     - path: data/raw/GTSRB/Test
-      hash: md5
       md5: 6536ebe2a85764605bedf18b4418efab.dir
       size: 76024728
       nfiles: 12631
     - path: data/raw/GTSRB/Train
-      hash: md5
       md5: e9f03d72f8a087a41ded956ad5539227.dir
       size: 235642986
       nfiles: 39209

@@ -1,0 +1,6 @@
+stages:
+  download_data:
+    cmd: python -c "from scripts.dvc_utils import download_data; download_data()"
+    outs:
+      - data/raw/GTSRB/Train
+      - data/raw/GTSRB/Test

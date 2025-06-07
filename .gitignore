@@ -1,10 +1,9 @@
-# .gitignore
-
 # Python files
 __pycache__/
 *.py[cod]
 *.egg-info/
 *.ckpt
+.DS_Store
 
 # Data and models (not in Git)
 data/
@@ -21,12 +20,15 @@ models/
 # DVC remote storage
 dvc_remote/
 
-# Сырые данные (управляются DVC, не должны попадать в Git)
+# Данные 
 data/raw/GTSRB/Train/
 data/raw/GTSRB/Test/
+data/predictions.csv
 
 # Логи MLflow
 mlruns/
+outputs/
+mlflow.db
 
 # Экспорты моделей
 models/onnx/
