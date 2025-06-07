@@ -1,0 +1,33 @@
+# .gitignore
+
+# Python files
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.ckpt
+
+# Data and models (not in Git)
+data/
+models/
+
+# Environment and logs
+.env
+.vscode/
+*.log
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# DVC remote storage
+dvc_remote/
+
+# Сырые данные (управляются DVC, не должны попадать в Git)
+data/raw/GTSRB/Train/
+data/raw/GTSRB/Test/
+
+# Логи MLflow
+mlruns/
+
+# Экспорты моделей
+models/onnx/
+models/trt/
