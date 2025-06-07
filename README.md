@@ -9,7 +9,7 @@
 ## Структура проекта
 
 ```bash
-traffic_sign/
+Traffic-Sign-Recognition/
 ├── configs/                       # Конфигурации
 │   ├── train/train.yaml           # Параметры обучения
 │   └── infer/infer.yaml           # Параметры инференса
@@ -49,7 +49,7 @@ traffic_sign/
 
 ```bash
 git clone https://github.com/idknoo/Traffic-Sign-Recognition.git
-cd traffic_sign
+cd Traffic-Sign-Recognition
 ```
 
 ### 2. Установка зависимостей
